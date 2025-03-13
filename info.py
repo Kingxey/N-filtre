@@ -28,7 +28,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7606613494:AAHc-vHZ0fW4PKHuIeIATWRwfEX63Ns
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 800))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://graph.org/file/01ddfcb1e8203879a63d7.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://graph.org/file/a125497b6b85a1d774394.jpg https://graph.org/file/43d26c54d37f4afb830f7.jpg https://graph.org/file/60c1adffc7cc2015f771c.jpg https://graph.org/file/d7b520240b00b7f083a24.jpg https://graph.org/file/0f336b0402db3f2a20037.jpg https://graph.org/file/39cc4e15cad4519d8e932.jpg https://graph.org/file/d59a1108b1ed1c6c6c144.jpg https://te.legra.ph/file/3a4a79f8d5955e64cbb8e.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg')).split()
+PICS = (environ.get('PICS' ,'https://i.ibb.co/N2vwCj9h/file-659.jpg https://i.ibb.co/F4RtNCzt/6a06fe6a-beea-45b6-a91b-729054c1fa4b.jpg https://i.ibb.co/rKByHQ6s/ef932da8-4d55-40d8-9117-e3dc0e8e75b9.jpg https://i.ibb.co/G3NNB4JY/1ff6aa3b-9f64-4b87-a072-94d1204b70d2.jpg https://i.ibb.co/Z1YmGwvc/09f6409c-466c-4bcd-b791-cb5e3fcf037e.jpg https://i.ibb.co/399ntZMj/8bfd1763-3183-4f45-893e-30a1fec5042d.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
@@ -38,7 +38,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '7428552084 1687928453').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1002376378205')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002647818964')
 auth_grp = environ.get('AUTH_GROUP', '-1002427882015')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
