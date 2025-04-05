@@ -28,7 +28,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7784716485:AAHqC3SwYxgHa73JymVI6kMLNi_4pF9
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 800))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://i.ibb.co/N2vwCj9h/file-659.jpg https://i.ibb.co/F4RtNCzt/6a06fe6a-beea-45b6-a91b-729054c1fa4b.jpg https://i.ibb.co/rKByHQ6s/ef932da8-4d55-40d8-9117-e3dc0e8e75b9.jpg https://i.ibb.co/G3NNB4JY/1ff6aa3b-9f64-4b87-a072-94d1204b70d2.jpg https://i.ibb.co/Z1YmGwvc/09f6409c-466c-4bcd-b791-cb5e3fcf037e.jpg https://i.ibb.co/399ntZMj/8bfd1763-3183-4f45-893e-30a1fec5042d.jpg')).split()
+PICS = (environ.get('PICS' ,'https://iili.io/375PLcN.md.jpg https://iili.io/375P93B.md.jpg https://iili.io/375rAjj.md.jpg https://iili.io/375gbBp.md.jpg https://iili.io/377dsfI.md.jpg https://iili.io/3772qOb.md.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
@@ -51,9 +51,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
-START_MESSAGE = environ.get('START_MESSAGE', '🌺 𝒉𝒆𝒍𝒍𝒐 {user}\n\n𝒎𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 {bot},\n\n𝒊 𝒄𝒂𝒏 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒎𝒐𝒗𝒊𝒆𝒔, 𝒋𝒖𝒔𝒕 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑 𝒂𝒏𝒅 𝒎𝒂𝒌𝒆 𝒎𝒆 𝒂𝒅𝒎𝒊𝒏...  ')
+START_MESSAGE = environ.get('START_MESSAGE', "<b>🌺 Salut {user}\n\nJe suis {bot} le plus puissant bot De fitre et de gestion de groupe avec vous trouverai tous vos animés. ajoutez moi à votre puis je vais le géré pour vous.!\n\n‣ Maintenu par : <a href='https://telegram.me/BotZFlix'>BotZFlix</a>...")
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "❖ 𝙃𝙚𝙮 {query}! 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣")
-FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', 'Yo mon pôte. Pour récupéré ta requête, tu dois d'abord rejoindre mes canaux @KGCAnime & @BotZFlix pour utilisé également mes fonctionnalités!')
+FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', "Yo mon pôte. Pour récupéré ta requête, tu dois d'abord rejoindre mes canaux @KGCAnime & @BotZFlix pour utilisé également mes fonctionnalités!")
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "🎥 Salut, {user} !\nBienvenue dans *{chat}* – votre guichet unique pour tout ce qui est séries et films !\nJe suis là pour vous servir. Envoyez-moi simplement un titre, et je m'occupe du reste. 🍿\nPlongez dans l'univers du divertissement et profitez de contenus soigneusement sélectionnés pour vous !")
