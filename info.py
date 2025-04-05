@@ -50,7 +50,7 @@ FILE_DB_NAME = environ.get("FILE_DB_NAME", DATABASE_NAME)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
-MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
+MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "20"))
 START_MESSAGE = environ.get('START_MESSAGE', "<b>🌺 Salut {user}\n\nJe suis {bot} le plus puissant bot De fitre et de gestion de groupe avec vous trouverai tous vos animés. ajoutez moi à votre puis je vais le géré pour vous.!\n\n‣ Maintenu par : <a href='https://telegram.me/BotZFlix'>BotZFlix</a>...")
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "❖ 𝙃𝙚𝙮 {query}! 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', "Yo mon pôte. Pour récupéré ta requête, tu dois d'abord rejoindre mes canaux @KGCAnime & @BotZFlix pour utilisé également mes fonctionnalités!")
@@ -66,8 +66,8 @@ SHORT_URL = environ.get("SHORT_URL")
 SHORT_API = environ.get("SHORT_API")
 
 # Others
-IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "900"))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002376378205))
+IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "10000000"))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002269297479))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'BotZFlixSupport')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 PM_IMDB = environ.get('PM_IMDB', "True")
